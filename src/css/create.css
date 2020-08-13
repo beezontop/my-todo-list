@@ -1,0 +1,25 @@
+  button {
+    margin          : 2px;
+    padding         : 5px 8px;
+    background-color: #333;
+    color           : white;
+    border          : none;
+    letter-spacing  : 1px;
+    transition      : 0.3s linear;
+  }
+
+  button:hover {
+    background-color: #ccc;
+  }
+
+  button.btn-bg-red {
+    background-color: #910101;
+  }
+
+  .container .mdc-text-field .mdc-text-field__input {
+    caret-color: #333;
+  }
+
+  .controller{
+    padding-top:20px;
+  }

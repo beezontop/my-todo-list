@@ -1,0 +1,41 @@
+ul,
+li {
+    list-style: none;
+}
+
+ul {
+    padding: 0;
+}
+
+li {
+    position     : relative;
+    padding      : 10px 0;
+    width        : 100%;
+    border-bottom: 1px #ccc solid;
+}
+
+input {
+    padding: 3px;
+}
+
+.item{
+    border: none;
+    width: 80%;
+    height: 100%;
+}
+
+button.btn-delete {
+    position: absolute;
+    margin: 0;
+    padding: 5px;
+    right: 0;
+    transform: translateX(-50%);
+    background: transparent;
+    color: #333;
+    cursor: pointer;
+}
+
+#empty{
+    padding: 20px 0;
+    text-align: center;
+}
