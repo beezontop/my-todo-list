@@ -16,7 +16,7 @@ class Create extends Component {
             value={this.props.state.tempVal}
             placeholder="Add task"
           />
-          <button onClick={this.props.onCreate}>Create</button>
+          <button onClick={this.props.onCreate}>Add</button>
           <button onClick={this.props.onReset} className="btn-bg-red">
             Reset
           </button>
